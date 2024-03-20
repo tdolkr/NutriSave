@@ -1,0 +1,408 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 360pxpx;
+    width: 90px;
+    background-color: #D2E3C8;
+    margin-top: 230px;
+    z-index: 1;
+    border-radius: 2px;
+    
+    
+  }
+  .nav-link {
+    padding: 20px 10px; /* Decreased padding */
+    color: black;
+    font-size: 14px; /* Decreased font size */
+    border-top: 1px solid #9F9D9D;
+    
+  }
+  .nav-link:hover {
+    background-color: #FFD7B2;
+    color: black;
+    
+  }
+  .main-content {
+    margin-right: 70px;
+    padding: 0px;
+  }
+.navbar-brand{
+    font-size: 25px;
+    padding-left: 50px;
+}
+.a{
+    background-color: #FFFFEC;
+    width: 100%;
+    height: 850px;
+    text-align: left;
+
+}
+.intro{
+    padding: 130px 100px 0px 100px;
+      
+}
+.intro h2{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.intro h1{
+    margin-top: 30px;
+    
+}
+.intro button{
+    margin: 30px 0px;
+}
+.b{
+    width: 100%;
+    height: 280px;
+    background-color:#4F6F52 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.b h5{
+    color: white;
+}
+.b p{
+    margin-top: 30px;
+}
+.c{
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+.faq{
+    padding-bottom: 200px;
+    padding-top: 0px;
+}
+.d{
+    width: 100%;
+    height: 100vh;
+    
+}
+.d p{
+    padding: 20px 0px 20px 50px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+.d h1,h5{
+    padding: 12px;
+    text-align: center;
+}
+.searchBox input{
+    border-color: #FB8B24;
+    margin-right: 10px;
+    width: 400px;
+}
+.input-group-text{
+    border-color: black;
+    background-color: white;
+    
+}
+.input-group-append svg{
+    color: black;
+} 
+.input-group-append svg:hover{
+    
+    color: #FB8B24;  
+}
+.d h4{
+    padding:50px;
+    margin-top: 50px;
+}
+.h {
+    display: flex;
+    align-items: center;
+  }
+
+  /* CSS for the heading */
+  .h h4 {
+    margin-right: 10px; /* Adjust as needed */
+  }
+
+  /* CSS for the horizontal line */
+  .line {
+    flex-grow: 1; /* Grow and occupy remaining space */
+    border: none;
+    border-top: 2px solid black; /* You can adjust the color and thickness of the line */
+    margin-top: 60px; /* Reset margin */
+    margin-right: 50px;
+    border-radius: 4px;
+    border-color: #4F6F52;
+  }
+
+  .e{
+   padding: 60px;
+  }
+  .card-container {
+    margin-top: 50px;
+    display: flex;
+}
+
+.card {
+    flex: 1;
+    margin: 0 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.card-left{
+    margin-left: 60px;
+}
+.card-right{
+    margin-right: 60px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 8px;
+    padding-left: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.card-description {
+    font-size: 1;
+    color: #666;
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.card-info {
+    font-size: 20px;
+    color: #999;
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;}
+    
+
+/* Add this CSS for responsive design */
+@media (max-width: 768px) {
+    .card-container {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex: 1 1 100%;
+        margin: 0 auto 20px;
+    }
+}
+
+  .hr-lines:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #4F6F52;
+    opacity: 0.5;
+  }
+  .hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 12px;
+  }
+  .hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: #4F6F52;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    opacity: 0.5;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: 550px; /* Fixed height for all images */
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 0px 300px;
+}
+
+.carousel-caption {
+    background-color: rgba(251, 139, 36, 0.8); /* Semi-transparent background for caption */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    font-size: 1.5rem; /* Optional: Adjust the size of the control buttons */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .carousel-item {
+        padding: 0px 50px; /* Adjust padding for smaller screens */
+    }
+    .carousel-item img {
+        height: 300px; /* Adjust the height for smaller screens if needed */
+    }
+}
+.column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px !important;
+}
+.radioBtn{
+    margin-right: 10px;
+}
+
+.mealPlan{
+    padding-bottom: 60px;
+}
+
+/* Center the list items */
+.list-item {
+    text-align: center;
+}
+
+.list-item label {
+    display: block;
+}
+
+/* Style the cards */
+.card {
+    margin-bottom: 20px; /* Adjust margin between cards */
+}
+
+.card-img-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+}
+
+.card:hover .card-img-overlay {
+    display: block;
+}
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .card-img-overlay {
+    display: block;
+    opacity: 1;
+}
+
+.card-img-overlay h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-img-overlay ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card-img-overlay ul li {
+    margin-bottom: 5px;
+}
+.card-text{
+    margin-bottom: 5px !important;
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+}
+.ct{
+    padding-bottom: 10px;
+}
+.roadMap{
+    margin-bottom: 120px !important;
+    
+}
+.footer .footer-item .btn-link {
+    line-height: 35px;
+    color: rgba(255, 255, 255, .5);
+    transition: 0.5s;
+}
+
+.footer .footer-item .btn-link:hover {
+    color: var(--bs-secondary) !important;
+}
+
+.footer .footer-item p.mb-4 {
+    line-height: 35px;
+}
+.py-5{
+    margin-top: 0px !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+.btn-primary{
+    background-color: #4F6F52 !important;
+}
+.footerLine{
+    margin-bottom: 30px !important;
+}
